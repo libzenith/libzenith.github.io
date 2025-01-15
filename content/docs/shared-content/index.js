@@ -1,7 +1,7 @@
 const sharedMdxComponents = {
-  // name of component: path to component (not including content/docs/)
+  // ConponentName: 'shared-content/component-filename'
   NeedHelp: 'shared-content/need-help',
-  NewPricing: 'shared-content/NewPricing',
+  NewPricing: 'shared-content/new-pricing',
   LRNotice: 'shared-content/lr-notice',
   ComingSoon: 'shared-content/coming-soon',
   EarlyAccess: 'shared-content/early-access',
@@ -11,6 +11,8 @@ const sharedMdxComponents = {
   FeatureBeta: 'shared-content/feature-beta',
   MigrationAssistant: 'shared-content/migration-assistant',
   LinkAPIKey: 'shared-content/manage-api-keys',
+  // TODO: Remove this test component for demo before release
+  ComponentWithProps: 'shared-content/component-with-props',
 };
 
 module.exports = sharedMdxComponents;
